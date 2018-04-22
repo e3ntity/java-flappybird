@@ -1,0 +1,69 @@
+{
+	"game": {
+		"fps": 1000,
+		"maxPipeCount": 4,
+		"minPipeDistancePercent": 20,
+		"speed": {
+			"multiplier": 1,
+			"bird": {
+				"flap": .15,
+				"gravity": 4000,
+				"maxY": 8000
+			},
+			"ground": 20,
+			"pipe": 20,
+			"background": 3
+		},
+		"initialResolution": {
+			width: 600,
+			height: 400
+		}
+	},
+	"text": {
+		"title": "Flappy Bird",
+		"menu": {
+			"title": "Flappy Bird",
+			"instruction": "Press space to start"
+		},
+		"running": {
+			"score": "Score: %d"
+		},
+		"end": {
+			"gameover": "Game Over!",
+			"instruction": "Press r to retry",
+			"score": "Score: %d"
+		}
+	},
+	"sprite": {
+		"background": {
+			"path": "resource/sprite/background.png",
+			"width": 1800,
+			"height": 300
+		},
+		"ground": {
+			"path": "resource/sprite/ground.png",
+			"width": 1800,
+			"height": 100
+		},
+		"pathway": {
+			"path": "resource/sprite/pathway.png",
+			"width": 1200,
+			"height": 6
+		},
+		"bird": {
+			"path": "resource/sprite/bird.png",
+			"width": 85,
+			"height": 60
+		},
+		"pipeUpper": {
+			"path": "resource/sprite/pipe_upper.png",
+			"width": 100,
+			"height": 300
+		},
+		"pipeLower": {
+			"path": "resource/sprite/pipe_lower.png",
+			"width": 100,
+			"height": 300
+		},
+	}
+}
